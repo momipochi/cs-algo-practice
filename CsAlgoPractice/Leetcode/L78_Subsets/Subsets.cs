@@ -1,4 +1,4 @@
-namespace L78_Subsets;
+namespace Leetcode;
 
 public class SubsetsSolution
 {

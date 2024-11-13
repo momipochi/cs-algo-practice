@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OPDZtSfxuuA=",
+  "dgSpecHash": "WMdzinQhKew=",
   "success": true,
-  "projectFilePath": "C:\\storage\\code\\cs-algo-practice\\CsAlgoPractice.Tests\\CsAlgoPractice.Tests.csproj",
+  "projectFilePath": "C:\\Storage\\code\\cs-algo-practice\\CsAlgoPractice.Tests\\CsAlgoPractice.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ander\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\ander\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
