@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CsAlgoPractice.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+197900034c48cf22ef1f882e6297121aa2d230a8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b96079b7853c85c4aeea4c2e256e63b73ca537be")]
 [assembly: System.Reflection.AssemblyProductAttribute("CsAlgoPractice.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CsAlgoPractice.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

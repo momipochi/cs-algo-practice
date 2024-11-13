@@ -29,7 +29,7 @@ public class NQueens
             return;
         }
 
-        for (int j = 0; j < cols.Length; ++j)
+        for (int j = 0; j < cols.Length; j++)
         {
             if (cols[j] || diag1[i + j] || diag2[j - i + n - 1])
             {

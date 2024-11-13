@@ -20,4 +20,23 @@ public class LeetcodeTest
         string word = "ABCCED";
         Assert.True(ws.Exist(input, word));
     }
+
+    [Fact]
+    public void TestNQueen()
+    {
+        int input = 4;
+        var output = Utils.TwoDimensionalArrayToList<string>([[".Q..", "...Q", "Q...", "..Q."], ["..Q.", "Q...", "...Q", ".Q.."]]);
+        NQueens nq = new();
+        Assert.True(Utils.AreTwoDimensionalListsEqual(output, nq.SolveNQueens(input)));
+    }
+
+    [Fact]
+    public void TestNQueenII()
+    {
+        int input = 4;
+        int output = 2;
+        NQueensII nq = new NQueensII();
+        Assert.Equivalent(output, nq.TotalNQueens(input));
+    }
+
 }
