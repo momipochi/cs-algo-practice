@@ -11,9 +11,9 @@ public class NQueensII
     {
         this.n = n;
         cols = new bool[n];
-        diag1 = new bool[2 * n + 1];
-        diag2 = new bool[2 * n + 1];
-        
+        diag1 = new bool[2 * n - 1];
+        diag2 = new bool[2 * n - 1];
+
         return countQueens(0);
     }
 
