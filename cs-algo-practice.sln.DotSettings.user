@@ -1,0 +1,10 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestProjectMapping/=12FAE3C6_002DFA2A_002D4E6C_002D96D5_002D20351A4E66B2/@EntryIndexedValue">E40F5BC4-47F9-4F1B-83C7-CB787796E2E2</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestTemplateMapping/=xUnit/@EntryIndexedValue">33ff99d8-b1ad-4ed5-a4fd-376b97c2c841</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d9bafb95_002Dbd69_002D48cc_002D9348_002Df25b082caf5b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TWO_SUM" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::E40F5BC4-47F9-4F1B-83C7-CB787796E2E2::net8.0::CsAlgoPractice.Tests.Leetcode.L1_TwoSums.TwoSumsTest.TWO_SUM&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::E40F5BC4-47F9-4F1B-83C7-CB787796E2E2::net8.0::CsAlgoPractice.Tests.Leetcode.L3_LongestSubstringWithoutRepeat.LongestSubstringWithoutRepeatTest.METHOD&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::E40F5BC4-47F9-4F1B-83C7-CB787796E2E2::net8.0::CsAlgoPractice.Tests.Leetcode.L11_ContainerWithMostWater.ContainerWithMostWaterTest.METHOD&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
