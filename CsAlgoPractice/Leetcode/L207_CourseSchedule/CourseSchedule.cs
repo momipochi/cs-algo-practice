@@ -9,21 +9,23 @@ public class CourseSchedule
         {
             track[prerequisites[i][1]]++;
         }
-        bool[] visisted = new bool[prerequisites.Length];
+
         bool found = true;
+        bool[] visited = new bool[prerequisites.Length];
         while (found)
         {
             found = false;
             for (int i = 0; i < prerequisites.Length; i++)
             {
-                if (!visisted[i] && track[prerequisites[i][0]] == 0)
+                if (!visited[i] && track[prerequisites[i][0]] == 0)
                 {
-                    visisted[i] = true;
-                    track[prerequisites[i][1]]--;
                     found = true;
+                    track[prerequisites[i][1]]--;
+                    visited[i] = true;
                 }
             }
         }
+
         for (int i = 0; i < track.Length; i++)
         {
             if (track[i] != 0)
