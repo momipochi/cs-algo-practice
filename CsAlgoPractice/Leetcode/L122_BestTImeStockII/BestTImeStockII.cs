@@ -12,7 +12,7 @@ public class BestTImeStockII
                 res += prices[i] - prices[i - 1];
             }
         }
-        
+
         return res;
     }
 }

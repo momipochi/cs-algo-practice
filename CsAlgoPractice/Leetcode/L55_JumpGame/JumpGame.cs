@@ -11,7 +11,8 @@ public class JumpGame
             {
                 return false;
             }
-            dist = Math.Max(dist, nums[i]+i);
+
+            dist = Math.Max(dist, nums[i] + i);
         }
         return true;
     }

@@ -2,7 +2,7 @@
 
 public class UniquePaths
 {
-    public int UniquePaths(int m, int n)
+    public int UniquePathsSolution(int m, int n)
     {
         int[][] dp = new int[m][];
         for (int i = 0; i < m; i++)

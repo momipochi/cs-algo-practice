@@ -4,25 +4,22 @@ public class ContainerWithMostWater
 {
     public int MaxArea(int[] height)
     {
-        int l = 0, r = height.Length - 1, max = 0;
-
-        
+        int l = 0, r = height.Length-1;
+        int max = 0;
         while (l < r)
         {
-            int curr = r - l;
-            if (height[r] > height[l])
+            var diff = r - l;
+            if (height[l] > height[r])
             {
-                curr *= height[l];
-                l++;
+                max = Math.Max(max, diff * height[r]);
+                r--;
             }
             else
             {
-                curr *= height[r];
-                r--;
+                max = Math.Max(max, diff * height[l]);
+                l++;
             }
-            max = Math.Max(max, curr);
         }
-        
         return max;
     }
 }

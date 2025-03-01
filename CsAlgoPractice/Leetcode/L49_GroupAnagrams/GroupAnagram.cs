@@ -4,20 +4,20 @@ public class GroupAnagram
 {
     public IList<IList<string>> GroupAnagrams(string[] strs)
     {
-        Dictionary<string,IList<string>> res = new Dictionary<string,IList<string>>();
+        Dictionary<string, IList<string>> res = new();
 
-        foreach (var str in strs)
+        for (int i = 0; i < strs.Length; i++)
         {
-            char[] tmp = str.ToCharArray();
+            var tmp = strs[i].ToCharArray();
             Array.Sort(tmp);
-            var stmp = new string(tmp);
-            if (res.ContainsKey(stmp))
+            var key = new string(tmp);
+            if (res.ContainsKey(key))
             {
-                res[stmp].Add(str);
+                res[key].Add(strs[i]);
             }
             else
             {
-                res[stmp] = new List<string> { str };
+                res[key] = new List<string>() {strs[i]};
             }
         }
         

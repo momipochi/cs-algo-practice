@@ -4,9 +4,9 @@ public class BestTimeStock
 {
     public int MaxProfit(int[] prices)
     {
-        int max = 0;
-        int min = prices[0];
-        for (int i = 1; i < prices.Length; i++)
+        int max = 0, min = prices[0];
+
+        for (int i = 0; i < prices.Length; i++)
         {
             if (min > prices[i])
             {
@@ -15,6 +15,7 @@ public class BestTimeStock
 
             max = Math.Max(max, prices[i] - min);
         }
+        
         return max;
     }
 }
